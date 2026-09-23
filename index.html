@@ -36,54 +36,66 @@
             </div>
 
             <p class="text-gray-600 mb-8 leading-relaxed">
-                This Privacy Policy applies to the <strong>TimeTable ISA</strong> application (hereby referred to as "the App") for mobile devices, developed by Damien Schenker. This service is provided at no cost and is intended for use as is. We are committed to protecting your privacy and ensuring transparency about how the App functions.
+                This Privacy Policy applies to the <strong>TimeTable ISA</strong> application (hereby referred to as "the App") for iOS devices, developed by Damien Schenker. This service is provided at no cost and is intended for use as is. We are committed to protecting your privacy and ensuring transparency about how the App functions.
             </p>
 
             <div class="space-y-8">
                 <section>
                     <h2 class="text-xl font-bold text-gray-900 mb-3">1. Data Collection and Usage</h2>
                     <div class="bg-green-50 text-green-800 px-4 py-3 rounded-md mb-3 font-medium border border-green-100">
-                        We do not collect, store, share, or transmit any personal data.
+                        We do not collect, store, share, or transmit your personal data to our own servers.
                     </div>
                     <p class="text-gray-600 leading-relaxed">
-                        The App operates entirely locally on your device. We do not use any analytics, user tracking, crash reporting services, or advertising frameworks that monitor your behavior or collect Personally Identifiable Information (PII). 
+                        The App operates primarily locally on your device, with specific exceptions for fetching your schedule and providing iOS system features (outlined below). We do not use any analytics, user tracking, crash reporting services, or advertising frameworks that monitor your behavior. 
                     </p>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">2. Third-Party Services and Local Data</h2>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">2. Schedule Data & Local Storage</h2>
                     <p class="text-gray-600 leading-relaxed mb-4">
-                        To provide its core functionality, the App downloads your personal educational schedule directly from <strong>isa.fr.ch</strong>. Please note the following important details regarding this process:
+                        To provide its core functionality, the App downloads your personal educational schedule directly from <strong>isa.fr.ch</strong> (the IS-Academia platform).
                     </p>
                     <ul class="list-disc pl-6 space-y-3 text-gray-600 leading-relaxed">
                         <li>
-                            <strong>Direct Connection:</strong> The App establishes a direct connection from your device to <em>isa.fr.ch</em>. Your login credentials, session tokens, and downloaded schedules never pass through servers owned or operated by us.
+                            <strong>Direct Connection:</strong> The App establishes a direct connection from your device to <em>isa.fr.ch</em>. Your login credentials and downloaded schedules never pass through any servers owned or operated by us.
                         </li>
                         <li>
-                            <strong>Strictly Local Storage:</strong> Once the schedule data is successfully downloaded, it is stored strictly within the secure local storage of your device to enable offline access. We have no access to this locally stored data.
-                        </li>
-                        <li>
-                            <strong>Third-Party Policies:</strong> Since the App connects directly to <em>isa.fr.ch</em>, your network interactions with that service are subject to their respective privacy policies and terms of service. We do not own or control the IS-Academia platform.
+                            <strong>Strictly Local Storage:</strong> Once the schedule data is successfully downloaded, it is stored strictly within the secure local storage of your device to enable offline access.
                         </li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">3. Security</h2>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">3. Live Activities & Apple Push Notification (APN) Services</h2>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        To support the iOS "Live Activity" feature (which displays your current class status on the Lock Screen and Dynamic Island), the App briefly interacts with Apple's APN servers.
+                    </p>
+                    <ul class="list-disc pl-6 space-y-3 text-gray-600 leading-relaxed">
+                        <li>
+                            <strong>Data Sent:</strong> When a Live Activity is active, the App sends only the current event's <strong>room number, time, and class name</strong> to Apple's APN server.
+                        </li>
+                        <li>
+                            <strong>Automatic Deletion:</strong> This minimal data is used solely to update the Live Activity interface. It is automatically deleted from the APN system immediately at the end of the scheduled event. This data is never stored on our own developer servers.
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">4. Security</h2>
                     <p class="text-gray-600 leading-relaxed">
-                        Because all application data is stored locally on your device and is never transmitted to us, the security of your schedule data relies on the physical and software security measures of your own device (e.g., screen locks, biometrics, and device encryption). We recommend keeping your device updated and secured.
+                        Because all application data is stored locally on your device or temporarily routed through Apple's secure infrastructure for system features, the security of your schedule data relies entirely on the physical and software security measures of your own device (e.g., screen locks, biometrics).
                     </p>
                 </section>
 
                 <section>
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">4. Changes to This Privacy Policy</h2>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">5. Changes to This Privacy Policy</h2>
                     <p class="text-gray-600 leading-relaxed">
-                        We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately upon posting.
+                        We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Any modifications are effective immediately upon being posted on this page.
                     </p>
                 </section>
 
                 <section class="bg-gray-50 p-6 rounded-lg border border-gray-200 mt-8">
-                    <h2 class="text-xl font-bold text-gray-900 mb-3">5. Contact Information</h2>
+                    <h2 class="text-xl font-bold text-gray-900 mb-3">6. Contact Information</h2>
                     <p class="text-gray-600 leading-relaxed mb-4">
                         If you have any questions, concerns, or suggestions regarding this Privacy Policy, please do not hesitate to contact me at:
                     </p>
